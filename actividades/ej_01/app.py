@@ -50,3 +50,4 @@ def serve_js(request):
     with open('scripts/base.js', 'r') as f:
         return f.read(), 200, {'Content-Type': 'application/javascript'}
 app.run(host=ip, port=80, debug=True)
+
